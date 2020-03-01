@@ -190,6 +190,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GXWXTONU
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for CAN_CurrentLoopModule\Design Rule Check - CAN_Current_Module.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
