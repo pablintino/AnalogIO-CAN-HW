@@ -7,4 +7,4 @@ From  : Variant [[No Variations]] of Project [CAN_CurrentLoopModule.PrjPcb]
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 20:17:01 On 17/03/2020
+Finished Output Generation At 20:48:01 On 17/03/2020

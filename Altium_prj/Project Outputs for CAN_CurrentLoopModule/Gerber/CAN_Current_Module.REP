@@ -2,59 +2,93 @@
 FileName = CAN_Current_Module.GBR
 AutoAperture = True
 *************************************************************
-Generating : Mechanical 15
-      File : CAN_Current_Module.GM15
+Generating : Bottom Pad Master
+      File : CAN_Current_Module.GPB
 
-    Adding Layer      : Mechanical 15
+    Adding Layer      : Bottom Layer
 
-
-Used DCodes :
-    D98
-    D99
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 13
-      File : CAN_Current_Module.GM13
-
-    Adding Layer      : Mechanical 13
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D14
-    D19
-    D98
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 1
-      File : CAN_Current_Module.GM1
+Generating : VCC Plane
+      File : CAN_Current_Module.G1
 
-    Adding Layer      : Mechanical 1
+    Adding Layer      : VCC Plane
 
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : CAN_Current_Module.GKO
-
-    Adding Layer      : Keep-Out Layer
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
     D21
+    D90
+    D95
+    D96
+    D97
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : CAN_Current_Module.GBO
+Generating : Top Layer
+      File : CAN_Current_Module.GTL
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
 *************************************************************
 
 *************************************************************
@@ -69,6 +103,101 @@ Generating : Bottom Paste
 
 
 Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : CAN_Current_Module.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : CAN_Current_Module.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : CAN_Current_Module.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D21
+    D83
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : CAN_Current_Module.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
 *************************************************************
 
 *************************************************************
@@ -145,64 +274,49 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : CAN_Current_Module.GTP
+Generating : Mechanical 15
+      File : CAN_Current_Module.GM15
 
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Mechanical 15
 
 
 Used DCodes :
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
+    D98
+    D99
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : CAN_Current_Module.GTO
+Generating : Keep-Out Layer
+      File : CAN_Current_Module.GKO
 
-    Adding Layer      : Top Overlay
+    Adding Layer      : Keep-Out Layer
 
 
 Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
     D21
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : CAN_Current_Module.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D14
+    D19
+    D98
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : CAN_Current_Module.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
 *************************************************************
 
 *************************************************************
@@ -250,49 +364,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Pad Master
-      File : CAN_Current_Module.GPB
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D88
-    D89
-    D90
-    D91
-    D92
-    D93
-    D94
-*************************************************************
-
-*************************************************************
-Generating : Bottom Layer
-      File : CAN_Current_Module.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D21
-    D83
-    D88
-    D89
-    D90
-    D91
-    D92
-    D93
-    D94
-    D95
-    D96
-    D97
-*************************************************************
-
-*************************************************************
 Generating : GND Plane
       File : CAN_Current_Module.G2
 
@@ -306,77 +377,6 @@ Used DCodes :
     D89
     D90
     D91
-    D94
-    D95
-    D96
-    D97
-*************************************************************
-
-*************************************************************
-Generating : VCC Plane
-      File : CAN_Current_Module.G1
-
-    Adding Layer      : VCC Plane
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D21
-    D90
-    D95
-    D96
-    D97
-*************************************************************
-
-*************************************************************
-Generating : Top Layer
-      File : CAN_Current_Module.GTL
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D82
-    D83
-    D84
-    D85
-    D86
-    D87
-    D88
-    D89
-    D90
-    D91
-    D92
-    D93
     D94
     D95
     D96
