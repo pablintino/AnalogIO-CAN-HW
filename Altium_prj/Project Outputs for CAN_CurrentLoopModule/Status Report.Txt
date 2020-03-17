@@ -1,27 +1,10 @@
-Output: Gerber Files
-Type  : Gerber
+Output: Bill of Materials
+Type  : BOM
 From  : Variant [[No Variations]] of Project [CAN_CurrentLoopModule.PrjPcb]
-   Generated File[CAN_Current_Module.GTO]
-   Generated File[CAN_Current_Module.GTP]
-   Generated File[CAN_Current_Module.GTS]
-   Generated File[CAN_Current_Module.GTL]
-   Generated File[CAN_Current_Module.G1]
-   Generated File[CAN_Current_Module.G2]
-   Generated File[CAN_Current_Module.GBL]
-   Generated File[CAN_Current_Module.GBS]
-   Generated File[CAN_Current_Module.GBO]
-   Generated File[CAN_Current_Module.GM1]
-   Generated File[CAN_Current_Module.GM13]
-   Generated File[CAN_Current_Module.GM15]
-   Generated File[CAN_Current_Module.GKO]
-   Generated File[CAN_Current_Module.GPT]
-   Generated File[CAN_Current_Module.GPB]
-   Generated File[CAN_Current_Module.RUL]
-   Generated File[CAN_Current_Module.EXTREP]
-   Generated File[CAN_Current_Module.REP]
+   Generated File[Bill of Materials-CAN_CurrentLoopModule.xlsx]
 
 
-Files Generated   : 18
+Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 21:59:43 On 16/03/2020
+Finished Output Generation At 20:17:01 On 17/03/2020
