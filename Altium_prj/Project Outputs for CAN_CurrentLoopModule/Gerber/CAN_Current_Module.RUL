@@ -1,0 +1,11 @@
+DRC Rules Export File for PCB: D:\Sources\CANOPEN_CURRENT_MODULE\trunk\HW\Altium_prj\CAN_Current_Module.PcbDoc
+RuleKind=Clearance|RuleName=TOP_BOT_POUR_GND_CLEARANCE|Scope=Board|Minimum=7.00
+RuleKind=Clearance|RuleName=VCC_PLANE_CLEARANCE|Scope=Board|Minimum=15.00
+RuleKind=Clearance|RuleName=GND_PLANE_CLEARANCE|Scope=Board|Minimum=15.00
+RuleKind=Clearance|RuleName=BOTTOM_GND_CLEARANCE_POWER|Scope=Board|Minimum=15.00
+RuleKind=Clearance|RuleName=TOP_GND_CLEARANCE_POWER|Scope=Board|Minimum=15.00
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=3.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.95
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=4.00
