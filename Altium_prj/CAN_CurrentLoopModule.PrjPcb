@@ -111,6 +111,23 @@ GenerateClassCluster=0
 DocumentUniqueId=KHOSOHFC
 
 [Document5]
+DocumentPath=Peripherals.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LYAMVMRL
+
+[Document6]
 DocumentPath=AnalogueIsolatedReceiver.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -127,7 +144,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WSNRGBKS
 
-[Document6]
+[Document7]
 DocumentPath=CPU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -144,7 +161,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YULYQGYC
 
-[Document7]
+[Document8]
 DocumentPath=PowerModule.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -161,7 +178,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LNEKFHDX
 
-[Document8]
+[Document9]
 DocumentPath=CanTransceiver.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -178,7 +195,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EFKWHVCE
 
-[Document9]
+[Document10]
 DocumentPath=CAN_Current_Module.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -195,7 +212,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GXWXTONU
 
-[Document10]
+[Document11]
 DocumentPath=Fabrication.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -211,6 +228,22 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Parameter1]
+Name=Address_Website
+Value=pablintino.com
+
+[Parameter2]
+Name=EMail
+Value=me@pablintino.com
+
+[Parameter3]
+Name=Project
+Value=AIC-ISO-C Module
+
+[Parameter4]
+Name=VersionRevision
+Value=1
 
 [Configuration1]
 Name=Sources
@@ -288,7 +321,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=OneNote
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -394,7 +427,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=OneNote
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -474,7 +507,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=OneNote
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -496,7 +529,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=OneNote
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=NC Drill
 OutputName1=NC Drill Files
@@ -576,7 +609,7 @@ Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLaye
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=OneNote
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -589,13 +622,15 @@ Configuration1_Item1=CaptionAsName
 Configuration1_Name2=ForceUpdateSettings
 Configuration1_Item2=False
 Configuration1_Name3=General
-Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1482|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
 Configuration1_Name4=GroupOrder
 Configuration1_Item4=Comment=True|Footprint=True
 Configuration1_Name5=SortOrder
 Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
 Configuration1_Name6=VisibleOrder
-Configuration1_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
+Configuration1_Item6=Comment=184|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120|Part Number=151|Library Name=100
+Configuration1_Name7=VisibleOrder_Flat
+Configuration1_Item7=Comment=184|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120|Part Number=151|Library Name=100
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
@@ -625,7 +660,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=OneNote
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -805,7 +840,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=OneNote
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -849,7 +884,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=OneNote
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -910,7 +945,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=OneNote
+TargetPrinter=Adobe PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1279,86 +1314,61 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=vh_altium_library.IntLib
-ComponentDesignItemID0=FQD11P06
-ComponentSymbolReference0=FQD11P06
+ComponentLibraryIdentifier0=Miscellaneous Devices.IntLib
+ComponentDesignItemID0=Cap
+ComponentSymbolReference0=Cap
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=vh_altium_library.IntLib
-ComponentDesignItemID1=PRKR2
-ComponentSymbolReference1=PRKR2
-ComponentUpdate1=0
-ComponentIsDeviceSheet1=0
-FullReplace=1
+FullReplace=0
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
 PreserveParameterLocations=1
 PreserveParameterVisibility=1
 DoGraphics=1
-DoParameters=1
+DoParameters=0
 DoModels=1
 AddParameters=0
 RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Category
+ParameterName0=Comment
 ParameterUpdate0=1
-ParameterName1=Comment
+ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Component Kind
+ParameterName2=Description
 ParameterUpdate2=1
-ParameterName3=Current - Continuous Drain (Id) @ 25° C
+ParameterName3=LatestRevisionDate
 ParameterUpdate3=1
-ParameterName4=Description
+ParameterName4=LatestRevisionNote
 ParameterUpdate4=1
-ParameterName5=Drain to Source Voltage (Vdss)
+ParameterName5=Library Reference
 ParameterUpdate5=1
-ParameterName6=FET Feature
+ParameterName6=PackageDescription
 ParameterUpdate6=1
-ParameterName7=FET Type
+ParameterName7=PackageReference
 ParameterUpdate7=1
-ParameterName8=Gate Charge (Qg) @ Vgs
+ParameterName8=Published
 ParameterUpdate8=1
-ParameterName9=Input Capacitance (Ciss) @ Vds
+ParameterName9=Publisher
 ParameterUpdate9=1
-ParameterName10=Library Reference
+ParameterName10=Value
 ParameterUpdate10=1
-ParameterName11=Manufacturer
-ParameterUpdate11=1
-ParameterName12=Manufacturer Part Number
-ParameterUpdate12=1
-ParameterName13=Mounting Type
-ParameterUpdate13=1
-ParameterName14=Package / Case
-ParameterUpdate14=1
-ParameterName15=Packaging
-ParameterUpdate15=1
-ParameterName16=Power - Max
-ParameterUpdate16=1
-ParameterName17=Rds On (Max) @ Id, Vgs
-ParameterUpdate17=1
-ParameterName18=RoHS
-ParameterUpdate18=1
-ParameterName19=Supplier
-ParameterUpdate19=1
-ParameterName20=Supplier 1
-ParameterUpdate20=1
-ParameterName21=Supplier Part Number
-ParameterUpdate21=1
-ParameterName22=Supplier Part Number 1
-ParameterUpdate22=1
-ParameterName23=Vgs(th) (Max) @ Id
-ParameterUpdate23=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=DPAK-GDS
+ModelName0=0805C-GENERIC
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=PRKR2
+ModelTypeGroup1=SI
+ModelTypeUpdate1=1
+ModelType1=SI
+ModelName1=Cap
 ModelUpdate1=1
+ModelTypeGroup2=SIM
+ModelTypeUpdate2=1
+ModelType2=SIM
+ModelName2=CAP
+ModelUpdate2=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
