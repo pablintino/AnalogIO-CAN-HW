@@ -1,4 +1,4 @@
-[Design]
+﻿[Design]
 Version=1.0
 HierarchyMode=2
 ChannelRoomNamingStyle=0
@@ -229,10 +229,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YYNPOMYI
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for CAN_CurrentLoopModule\Design Rule Check - AnalogIO-CAN-HW-Rev1.html
-DItemRevisionGUID=
-
 [Parameter1]
 Name=Address_Website
 Value=pablintino.com
@@ -325,7 +321,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -431,7 +427,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -511,7 +507,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -533,7 +529,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=NC Drill
 OutputName1=NC Drill Files
@@ -613,7 +609,7 @@ Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLaye
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -664,7 +660,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -844,7 +840,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -888,7 +884,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -949,7 +945,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=OneNote for Windows 10
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1318,9 +1314,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Database_Libs.DbLib/Resistors 0805
-ComponentDesignItemID0=CRCW08055K00FKTA
-ComponentSymbolReference0=Resistor
+ComponentLibraryIdentifier0=Database_Libs.DbLib/PPTC Fuses
+ComponentDesignItemID0=NANOASMDC012F-2
+ComponentSymbolReference0=PTC FUSE
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1342,32 +1338,42 @@ ParameterName1=Component Kind
 ParameterUpdate1=1
 ParameterName2=Created On
 ParameterUpdate2=1
-ParameterName3=Description
+ParameterName3=Current Rating
 ParameterUpdate3=1
-ParameterName4=Library Reference
+ParameterName4=Description
 ParameterUpdate4=1
-ParameterName5=Manufacturer
+ParameterName5=Hold Current
 ParameterUpdate5=1
-ParameterName6=Package
+ParameterName6=Library Reference
 ParameterUpdate6=1
-ParameterName7=Part Number
+ParameterName7=Manufacturer
 ParameterUpdate7=1
-ParameterName8=Power Max
+ParameterName8=Maximum Resistance
 ParameterUpdate8=1
-ParameterName9=Through Hole
+ParameterName9=Minimum Resistance
 ParameterUpdate9=1
-ParameterName10=Tolerance
+ParameterName10=Package
 ParameterUpdate10=1
-ParameterName11=Type
+ParameterName11=Part Number
 ParameterUpdate11=1
-ParameterName12=Updated On
+ParameterName12=Power Rating
 ParameterUpdate12=1
-ParameterName13=Value
+ParameterName13=Through Hole
 ParameterUpdate13=1
+ParameterName14=Trip Current
+ParameterUpdate14=1
+ParameterName15=Type
+ParameterUpdate15=1
+ParameterName16=Updated On
+ParameterUpdate16=1
+ParameterName17=Value
+ParameterUpdate17=1
+ParameterName18=Voltage Rating
+ParameterUpdate18=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=RES 0805_2012
+ModelName0=PPTC_1206_1MM
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
