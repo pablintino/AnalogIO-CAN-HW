@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: AnalogIO-CAN-HW-Rev1.PcbDoc   20/08/2020  2:21:49
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : AnalogIO-CAN-HW-Rev1.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.2mm)                                              Round             167       PTH        0.00inch (0.00mm)
+T2      29mil (0.737mm)                                           Round             10        PTH        0.00inch (0.00mm)
+T3      40mil (1.016mm)                                           Round             4         PTH        0.00inch (0.00mm)
+T4      43mil (1.09mm)                                            Round             9         PTH        0.00inch (0.00mm)
+T5      75mil (1.905mm)                                           Round             10        PTH        0.00inch (0.00mm)
+T6      89mil (2.261mm)                                           Round             1         PTH        0.00inch (0.00mm)
+T7      122mil (3.1mm)                                            Round             2         PTH        0.00inch (0.00mm)
+T8      89mil (2.261mm)                                           Round             3         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              206
+
+Total Processing Time (hh:mm:ss) : 00:00:00
