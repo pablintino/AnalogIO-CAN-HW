@@ -74,13 +74,15 @@ PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration3_Name1=ColumnNameFormat
 Configuration3_Item1=CaptionAsName
 Configuration3_Name2=General
-Configuration3_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration3_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1842|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
 Configuration3_Name3=GroupOrder
 Configuration3_Item3=Comment=True|Footprint=True
 Configuration3_Name4=SortOrder
 Configuration3_Item4=Designator=Up|Comment=Up|Footprint=Up
 Configuration3_Name5=VisibleOrder
-Configuration3_Item5=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
+Configuration3_Item5=Designator=120|Part Number=180|Manufacturer=235|Quantity=120|Comment=185|Description=176|Footprint=120
+Configuration3_Name6=VisibleOrder_Flat
+Configuration3_Item6=Designator=120|Part Number=180|Manufacturer=235|Quantity=120|Comment=185|Description=176|Footprint=120
 OutputType4=Design Rules Check
 OutputName4=Design Rules Check
 OutputCategory4=Validation
