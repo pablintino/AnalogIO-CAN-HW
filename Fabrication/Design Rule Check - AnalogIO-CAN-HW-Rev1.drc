@@ -1,0 +1,96 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\pablo\Desktop\AnalogIO-CAN-HW\AnalogIO-CAN-HW-Rev1.PcbDoc
+Date     : 21/08/2020
+Time     : 12:15:46
+
+Processing Rule : Clearance Constraint (Gap=15mil) ((OnLayer('GND Layer') OR OnLayer('Power Layer'))),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=8mil) (InNamedPolygon('GND_L01_P059_OSC_GUARD')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=4mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=15mil) (InNamedPolygon('GND_L01_P106')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=8mil) (InNamedPolygon('GND_L01_P094')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=4mil) (Max=71497.938mil) (Preferred=4mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=11.811mil) (Conductor Width=4mil) (Air Gap=4mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (InPadClass('PowerPads'))
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=3mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=7.874mil) (Max=248.031mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=9.842mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=4mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Room U_Peripherals (Bounding Region = (2333.047mil, 1543.638mil, 3399.512mil, 3354.512mil) (InComponentClass('U_Peripherals'))
+Rule Violations :0
+
+Processing Rule : Room U_PowerModule (Bounding Region = (1199.236mil, 1827.929mil, 2963.724mil, 4132.307mil) (InComponentClass('U_PowerModule'))
+Rule Violations :0
+
+Processing Rule : Room U_CanTransceiver (Bounding Region = (947.063mil, 1545.016mil, 2782.386mil, 2791.205mil) (InComponentClass('U_CanTransceiver'))
+Rule Violations :0
+
+Processing Rule : Room ARM4 (Bounding Region = (3490mil, 1530mil, 5120mil, 2210mil) (InComponentClass('ARM4'))
+Rule Violations :0
+
+Processing Rule : Room U_AnalogueIsolatedReceiver (Bounding Region = (2957.929mil, 2411.669mil, 3438.488mil, 3188.331mil) (InComponentClass('U_AnalogueIsolatedReceiver'))
+Rule Violations :0
+
+Processing Rule : Room U_CPU (Bounding Region = (2633.5mil, 1508.5mil, 3404.512mil, 2757.071mil) (InComponentClass('U_CPU'))
+Rule Violations :0
+
+Processing Rule : Room ARM1 (Bounding Region = (3490mil, 3570mil, 5120mil, 4250mil) (InComponentClass('ARM1'))
+Rule Violations :0
+
+Processing Rule : Room ARM2 (Bounding Region = (3490mil, 2890mil, 5120mil, 3570mil) (InComponentClass('ARM2'))
+Rule Violations :0
+
+Processing Rule : Room ARM3 (Bounding Region = (3490mil, 2210mil, 5120mil, 2890mil) (InComponentClass('ARM3'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=71497.938mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 0
+Waived Violations : 0
+Time Elapsed        : 00:00:02

@@ -229,6 +229,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YYNPOMYI
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for CAN_CurrentLoopModule\Design Rule Check - AnalogIO-CAN-HW-Rev1.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Address_Website
 Value=pablintino.com
@@ -427,7 +431,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=OneNote for Windows 10
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
